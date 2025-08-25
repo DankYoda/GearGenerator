@@ -1,0 +1,8 @@
+type,hands,range,attack_speed
+Greatsword,2,null,0.75
+Sword,1,null,1
+Dagger,1,null,2
+Warhammer,1,null,1
+Greathammer,2,null,0.5
+Shortbow,2,1.5,2
+Longbow,2,2,1.5
