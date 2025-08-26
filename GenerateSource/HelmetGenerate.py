@@ -20,7 +20,7 @@ def generate(adjectives, names, how_many):
     generatedHelmets = []
 
     #Load weapon templates
-    with open('GearSource/Helmets.csv', 'r') as f:
+    with open('GearTemplates/Helmets.csv', 'r') as f:
         reader = csv.reader(f)
         next(reader)  #strips header row
         for row in reader:
@@ -30,5 +30,5 @@ def generate(adjectives, names, how_many):
         weapon.name = f"The {random.choice(adjectives).rstrip().title()} Helmet of {random.choice(names).rstrip().title()}"
         generatedHelmets.append(weapon)
 
-    with open("GearGenerated/GeneratedHelmets.json", "w") as f:
+    with open("GearGenerated/Helmets.json", "w") as f:
         f.write(json.dumps(generatedHelmets, default=lambda x: x.__dict__))
