@@ -31,7 +31,8 @@ def generate(adjectives, names, how_many):
                     float(row[1])*float(rarity.value),
                     float(row[2])*float(rarity.value),
                     rarity.name
-                ))
+                )
+            )
     for x in range(how_many):
         helmet = copy.deepcopy(random.choice(readHelmets))
         helmet.name = f"The {random.choice(adjectives).rstrip().title()} Helmet of {random.choice(names).rstrip().title()}"

@@ -1,5 +1,4 @@
 from GenerateSource import ArmorGenerate, WeaponGenerate, HelmetGenerate
-from enum import Enum
 
 
 

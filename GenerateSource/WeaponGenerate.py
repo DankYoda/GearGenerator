@@ -32,7 +32,8 @@ def generate(adjectives, names, how_many):
                     float(row[2]) * float(rarity.value),
                     float(row[3]) * float(rarity.value),
                     rarity.name
-                ))
+                )
+            )
     for x in range(how_many):
         weapon = copy.deepcopy(random.choice(readWeapons))
         weapon.name = f"The {random.choice(adjectives).rstrip().title()} {weapon.typeof.rstrip().title()} of {random.choice(names).rstrip().title()}"
