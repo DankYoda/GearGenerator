@@ -1,2 +1,4 @@
 /.idea/
-
+/GearGenerated/GeneratedWeapons.json
+/GearGenerated/GeneratedArmors.json
+/GearGenerated/GeneratedHelmets.json
