@@ -1,30 +1,93 @@
-brave
-cunning
-mysterious
-radiant
-ancient
-swift
-silent
-fierce
-gentle
-vivid
-shadowy
-glimmering
-stormy
-serene
-crimson
-golden
-silver
-emerald
-obsidian
-fiery
-cold
-warm
-bitter
-sweet
-blooming
-withered
-lonely
-joyful
-melancholy
-savage
+Arcane
+Ethereal
+Mystic
+Enchanted
+Celestial
+Runic
+Ancient
+Forgotten
+Primeval
+Otherworldly
+Spectral
+Glimmering
+Radiant
+Luminous
+Shadowy
+Obsidian
+Crimson
+Verdant
+Sable
+Ivory
+Golden
+Silvered
+Bronzed
+Twilight
+Dawn kissed
+Midnight
+Storm laden
+Tempestuous
+Blazing
+Frost bitten
+Icy
+Flaming
+Smoldering
+Ashen
+Dusty
+Wind whipped
+Stone cursed
+Iron bound
+Silken
+Velvet
+Gilded
+Moss covered
+Rooted
+Blooming
+Withered
+Haunted
+Phantasmal
+Dreamlike
+Wyrm scaled
+Dragon blooded
+Phoenix feathered
+Griffin taloned
+Elf crafted
+Dwarven forged
+Orcish
+Goblin sneaky
+Troll stout
+Serpentine
+Leviathan deep
+Celestine
+Starlit
+Moon bathed
+Sun scorched
+Nebulous
+Astral
+Void filled
+Eldritch
+Primordial
+Mythic
+Legendary
+Heroic
+Valiant
+Bold
+Fierce
+Savage
+Noble
+Regal
+Majestic
+Imperial
+Divine
+Sacred
+Profane
+Cursed
+Blessed
+Hallowed
+Unholy
+Ruthless
+Merciless
+Gentle
+Silent
+Whispering
+Roaring
+Thunderous
