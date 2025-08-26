@@ -1,4 +1,7 @@
 from GenerateSource import ArmorGenerate, WeaponGenerate, HelmetGenerate
+from enum import Enum
+
+
 
 if __name__ == '__main__':
     names = open("TextSource/Names.txt", "r").readlines()

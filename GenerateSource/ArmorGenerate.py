@@ -2,17 +2,16 @@ import csv
 import random
 import copy
 import json
+from Enum import Rarity
 
 
 class Armor:
-    def __init__(self, name, typeof, movement, protection):
+    def __init__(self, name, typeof, movement, protection, rarity):
         self.name = name
         self.typeof = typeof
         self.movement = movement
         self.protection = protection
-
-    def __str__(self):
-        return f"{self.name} Type: {self.typeof} Movement: {self.movement} Protection: {self.protection}"
+        self.rarity = rarity
 
 
 def generate(adjectives, names, how_many):
@@ -24,7 +23,15 @@ def generate(adjectives, names, how_many):
         reader = csv.reader(f)
         next(reader)  #strips header row
         for row in reader:
-            readArmors.append(Armor("", row[0], row[1], row[2]))
+            rarity = random.choice(list(Rarity.Rarity))
+            readArmors.append(
+                Armor(
+                    "",
+                    row[0],
+                    float(row[1]) * float(rarity.value),
+                    float(row[2]) * float(rarity.value),
+                    rarity.name
+                ))
     for x in range(how_many):
         weapon = copy.deepcopy(random.choice(readArmors))
         weapon.name = f"The {random.choice(adjectives).rstrip().title()} Armor of {random.choice(names).rstrip().title()}"
