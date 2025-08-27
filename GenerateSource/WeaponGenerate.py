@@ -2,7 +2,7 @@ import csv
 import random
 import copy
 import json
-from Enum import Rarity
+from GenerateSource.Enums import Rarity
 
 class Weapon:
     def __init__(self, name, typeof, hands, attack_range, attack_speed, rarity):
@@ -23,7 +23,7 @@ def generate(adjectives, names, how_many):
         reader = csv.reader(f)
         next(reader)  #strips header row
         for row in reader:
-            rarity = random.choice(list(Rarity.Rarity))
+            rarity = random.choice(list(Rarity))
             readWeapons.append(
                 Weapon(
                     "",
