@@ -37,5 +37,5 @@ def generate(adjectives, names, how_many):
         helmet.name = f"The {random.choice(adjectives).rstrip().title()} Helmet of {random.choice(names).rstrip().title()}"
         generatedHelmets.append(helmet)
 
-    with open("GearGenerated/Helmets.json", "w") as f:
+    with open("Helmets.json", "w") as f:
         f.write(json.dumps(generatedHelmets, default=lambda x: x.__dict__))

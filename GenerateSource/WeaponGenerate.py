@@ -39,5 +39,5 @@ def generate(adjectives, names, how_many):
         weapon.name = f"The {random.choice(adjectives).rstrip().title()} {weapon.typeof.rstrip().title()} of {random.choice(names).rstrip().title()}"
         generatedWeapons.append(weapon)
 
-    with open("GearGenerated/Weapons.json", "w") as f:
+    with open("Weapons.json", "w") as f:
         f.write(json.dumps(generatedWeapons, default=lambda x: x.__dict__))
